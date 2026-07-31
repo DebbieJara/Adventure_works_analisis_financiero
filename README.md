@@ -51,14 +51,6 @@ SQL (PostgreSQL)
 - [`02_financial_kpis.sql`](./02_financial_kpis.sql) — revenue, cost, campaign spend, gross profit, margin, ROI
 - [`03_data_quality_checks.sql`](./03_data_quality_checks.sql) — NULL, quantity, and price validation
 
-## Limitations
-Query results were captured manually, since notebook access was lost after
-running the analysis. During review, the product join in the base dataset
-query was corrected from an inner `JOIN` to a `LEFT JOIN` (per the original
-project instructions) to avoid silently dropping unmatched records. This
-correction could not be re-validated against the live database, as access
-was no longer available.
-
 ---
 *By Deborah Jara | People & Learning Analytics · Business Intelligence | México*
 [LinkedIn](https://linkedin.com/in/deborahjara) · [GitHub](https://github.com/DebbieJara)
