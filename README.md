@@ -51,7 +51,7 @@ SQL (PostgreSQL)
 - [`02_financial_kpis.sql`](./02_financial_kpis.sql) — revenue, cost, campaign spend, gross profit, margin, ROI
 - [`03_data_quality_checks.sql`](./03_data_quality_checks.sql) — NULL, quantity, and price validation
 
-  ### Executive Summary
+### Executive Summary
 [View the full executive dashboard (PDF)](./executive-summary.pdf)
 
 ---
